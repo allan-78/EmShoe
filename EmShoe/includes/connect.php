@@ -1,9 +1,9 @@
 <?php
 // Database configuration
 $servername = "localhost";
-$username = "your_username";
-$password = "your_password";
-$dbname = "shoeshop_db";
+$username = "root";
+$password = "";
+$dbname = "ShoeShop";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
